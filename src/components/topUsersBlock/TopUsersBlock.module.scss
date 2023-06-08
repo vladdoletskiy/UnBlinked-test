@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    & p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.functions {
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 30px;
+        margin-top: 5px;
+        padding: 0 15px;
+        background-color: #a6a8ad;
+        border-radius: 12px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    & button {
+        background-color: inherit;
+        border: none;
+        color: #2e9ad0;
+    }
+}
+
+.topUsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #e5e5e8;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.userItem {
+    display: flex;
+    align-items: center;
+    & svg {
+        margin-right: 5px;
+    }
+}

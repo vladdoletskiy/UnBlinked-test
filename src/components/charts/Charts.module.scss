@@ -1,0 +1,41 @@
+$blue-color: #2e9ad0;
+
+.chartBox {
+    max-height: 550px;
+}
+
+.chartTabs {
+    padding: 15px 0 15px 200px;
+    & button {
+        padding-left: 5px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-weight: 600;
+        color: #83858b;
+
+        &:hover {
+            border-bottom: 2px solid $blue-color;
+            color: $blue-color;
+        }
+        &:active {
+            border-bottom: 2px solid $blue-color;
+            color: $blue-color;
+        }
+    }
+}
+
+.reloadBtn {
+    width: 135px;
+    margin-left: 50px;
+    border: 1px solid #e5e5e8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & button {
+        border: none;
+        background-color: inherit;
+    }
+}

@@ -1,0 +1,55 @@
+.main {
+    max-width: 261px;
+    margin: 10px 0;
+    & div:nth-child(2) {
+        padding-left: 3px;
+        & p:nth-child(1) {
+            margin: 4px 0;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        & p:nth-child(2) {
+            margin: 4px 0 4px 0;
+            font-weight: 500;
+            font-size: 12px;
+            color: #83858b;
+        }
+        & div:nth-child(1) {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 12px;
+            & svg {
+                margin-right: 5px;
+                font-size: 15px;
+            }
+        }
+        & div:nth-child(2) {
+            align-items: center;
+            font-size: 12px;
+            display: flex;
+            & svg {
+                margin-right: 5px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.viewsStatistic {
+    display: flex;
+}
+
+.imageContainer {
+    width: 261px;
+    height: 153px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+        min-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+}
